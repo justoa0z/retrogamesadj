@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+ 
+.nav ul {
+  list-style: none;
+  background-color: whitesmoke;
+  text-align: center;
+   padding: 0;
+  margin: 0;
+  grid-template-columns: auto;
+   display: flex;  
+  flex-flow: wrap;
+  opacity: 0.6;
+
+
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+
+ 
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+  color: black;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
+.carousel-inner{
+    height: 400px;
+    padding-left: 20%;
+    background-image: url(gip.gif);
+
+}
+
+.carousel-item, img{
+    height: 100% !important;
+    width:  78% !important;
+
+}
+
+
+.img1{
+  background-image:url("topimg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+}
+
+
+.fdiv a{
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+.fdiv a:hover{
+font-size: 17px;
+color: blueviolet;
+
+}
+
+
+.fimg1{
+flex-flow: wrap;
+height: 100px;
+
+column-count: 6;
+padding: 1px;
+  flex-flow: wrap;
+}
+
+.fimg2{
+flex-flow: wrap;
+width: 220px;
+height: 100px;
+
+column-count: 2;
+  flex-flow: wrap;
+}
+
+
+.eh1{
+
+
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.pe{
+
+text-align: center;
+
+
+}
+
+.pad{
+ text-align: center;
+ padding-top: 500px;
+ padding-bottom: 20px;
+ color: blue;
+}
+
+.pad1{
+
+text-align: center;
+
+}
+
+
+footer .fot{
+background-color: #323232;
+}
+
+.logs{
+height: 100px;
+width: 350px;
+
+}
+
+.logs img{
+border-radius: 17px;
+
+}
+
+.fot p{
+
+color: whitesmoke;
+
+}
+
+.ctg{
+
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  
+  [class*="col-"] {
+    width: 100%;
+  }
+
+
+
+
